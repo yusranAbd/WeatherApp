@@ -13,3 +13,16 @@ body {
     justify-content: center;
     background: #06283d;
 }
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 105px;
+    background-color: white;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.6s ease-out;
+
+}
