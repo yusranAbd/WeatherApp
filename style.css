@@ -17,7 +17,7 @@ body {
 .container{
     position: relative;
     width: 400px;
-    height: 605px;
+    height: 105px;
     background-color: white;
     padding: 28px 32px;
     overflow: hidden;
@@ -145,4 +145,41 @@ body {
     color: #06283d;
     font-size: 14px;
     font-weight: 500;
+}
+
+.not-found{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    scale: 0;
+    opacity: 0;
+    display: none;
+}
+
+.not-found img{
+    width: 70%;
+}
+
+.not-found p{
+    color: #06283d;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.weather-box, .weather-details{
+    scale: 0;
+    opacity: 0;
+}
+
+.fade-in{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    to{
+        scale: 1;
+        opacity: 1;
+    }
 }
